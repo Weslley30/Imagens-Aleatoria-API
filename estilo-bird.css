@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellowgreen;
+       
+}
+
+
+.pterodactilo{
+    background-image: url(https://media.istockphoto.com/photos/pteranodon-scene-3d-illustration-picture-id1004753634?k=20&m=1004753634&s=612x612&w=0&h=GF8CAyoc-fUYrgQb1cwH64lkkFXO6qOqbHYV8y9delA=);
+    position: absolute;
+    margin-left: 15%;
+    background-size:cover;
+    padding-top: 250px;
+}
+
+.Pelagornis{
+    background-image: url(https://www.researchgate.net/profile/John-Buckeridge/publication/319968946/figure/fig2/AS:541174819950592@1506037539164/A-reconstruction-of-Pelagornis-the-large-extinct-marine-bird-characterized-by-a.png);
+    position: absolute;
+    margin-left: 40%;
+    background-size:cover;
+    padding-top: 250px;
+}
+
+.Archaeopteryx{
+    background-image: url(https://animasso.com.br/wp-content/uploads/2017/11/Reconstruction2000-1024x851.jpg);
+    position: absolute;
+    margin-left: 65%;
+    background-size:cover;
+    padding-top: 250px;
+}
+
+.pica-pau{
+    background-image: url(https://s3.amazonaws.com/media.wikiaves.com.br/images/6242/2426342_ce45cdb342678f8d117327b8e5dcca64.jpg);
+    position: absolute;
+    margin-left: 15%;
+    background-size:cover;
+    padding-top: 250px;
+}
+
+.arara{
+    background-image: url(https://cdn.iset.io/assets/55072/produtos/66/1290117472.jpg);
+    position: absolute;
+    margin-left: 40%;
+    background-size:cover;
+    padding-top: 230px;
+}
+
+.aguia{
+    background-image: url(https://qcanimais.com.br/wp-content/uploads/2019/12/%C3%81guia-1.jpg);
+    position: absolute;
+    margin-left: 65%;
+    background-size:cover;
+    padding-top: 250px;
+}
