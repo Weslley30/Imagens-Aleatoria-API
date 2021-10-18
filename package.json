@@ -1,0 +1,19 @@
+{
+  "name": "api-bird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Api-bird.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weslley30/Imagens-Aleatoria-API.git"
+  },
+  "author": "Weslley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weslley30/Imagens-Aleatoria-API/issues"
+  },
+  "homepage": "https://github.com/Weslley30/Imagens-Aleatoria-API#readme"
+}
