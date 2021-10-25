@@ -1,75 +1,33 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="Api-bird.js"></script>
     <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/180625/isolated/lists/3179067b2dbf3a835e8efa71d32c68f1-passaro-voando-silhueta-asas-de-passaro.png">
     <title> Birds Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="Api-bird.js"></script>
+    <link rel="stylesheet" href="test css.css"/>
 </head>
 
-<style>
-    body{
-        background-color: aqua;
-    }
-    div{
-        
-        display: inline-block;
-    }
-    article{
-        text-align: center;
-    }
-
-    .butao{
-        border: none;
-        background-color: aqua;
-    }
-
-    footer{
-        padding-top: 15%;
-    }
-
-    button{
-        cursor: pointer;
-    }
-
-    @media screen and (max-width: 600px){
-p{
-    font-size: 30px;
-}
-
-span{
-    font-size: 30px;
-}
-
-button{
-    font-size: 30px;
-}
-}
-
-</style>
-<body onload="initTime();">
+<body>
     <article>
         <h1>Aguia</h1>
     </article>
-    <div>
-        <img src ="https://qcanimais.com.br/wp-content/uploads/2019/12/%C3%81guia-1.jpg" width = 520px>
+    <div id="container">
+        <div id="inner_container">
+            <img id="image_shower"/>
+        </div>
+        <div id="button_container">
+            <p> As águias são grandes aves de rapina, ou seja, aves que caçam outros animais e
+                se alimentam deles. <br>Elas fazem parte da família dos gaviões, dos falcões e dos abutres.
+                Há muito tempo as águias ocupam um <br>lugar especial na imaginação humana devido à sua força
+                e ao fato de voarem em grandes altitudes. <br> A águia-real é um símbolo de poder desde a Antiguidade.
+                <br> A águia-de-cabeça-branca, ou águia-calva, é o símbolo nacional dos Estados Unidos.
+            </p>
+            <button class="butao" onclick="get_random_aguia()"> <img src="https://images.vexels.com/media/users/3/136703/isolated/lists/f51220af0a9d200aba4b1574f3f34830-icone-de-recarregar.png" height="20px"></button>
+            <span id="timer"></span>
+        </div>
     </div>
-
-    <div>
-        <p> As águias são grandes aves de rapina, ou seja, aves que caçam outros animais e
-            se alimentam deles. <br>Elas fazem parte da família dos gaviões, dos falcões e dos abutres.
-            Há muito tempo as águias ocupam um <br>lugar especial na imaginação humana devido à sua força
-            e ao fato de voarem em grandes altitudes. <br> A águia-real é um símbolo de poder desde a Antiguidade.
-            <br> A águia-de-cabeça-branca, ou águia-calva, é o símbolo nacional dos Estados Unidos.
-        </p>
-        <button class="butao"> <img src="https://images.vexels.com/media/users/3/136703/isolated/lists/f51220af0a9d200aba4b1574f3f34830-icone-de-recarregar.png" height="20px"></button>
-        <span id="timer"></span>
-    </div>
-
     <footer>
         <a href="pagina-bird.html"> <button>Voltar</button> </a>
     </footer>
 </body>
-
 </html>
